@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: azure-batch.api.streamdata.gallery
+title: Streamdata Gallery Azure Batch
+url: azure-batch.streamdata.gallery
 tag: Azure Batch
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: azure-batch
 github_branch: master
 collections:
