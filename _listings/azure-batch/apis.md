@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Batch
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountname-put-openapi.md
 - name: Azure Batch API Batch Account Update
   x-api-slug: azure-batch-api
   description: Updates the properties of an existing Batch account.
@@ -39,7 +39,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountname-patch-openapi.md
 - name: Azure Batch API Batch Account Delete
   x-api-slug: azure-batch-api
   description: Deletes the specified Batch account.
@@ -49,7 +49,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountname-delete-openapi.md
 - name: Azure Batch API Batch Account Get
   x-api-slug: azure-batch-api
   description: Gets information about the specified Batch account.
@@ -59,7 +59,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountname-get-openapi.md
 - name: Azure Batch API Batch Account List
   x-api-slug: azure-batch-api
   description: Gets information about the Batch accounts associated with the subscription.
@@ -69,7 +69,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidprovidersmicrosoftbatchbatchaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidprovidersmicrosoft-batchbatchaccounts-get-openapi.md
 - name: Azure Batch API Batch Account List By Resource Group
   x-api-slug: azure-batch-api
   description: Gets information about the Batch accounts associated within the specified
@@ -80,7 +80,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccounts-get-openapi.md
 - name: Azure Batch API Batch Account Synchronize Auto Storage Keys
   x-api-slug: azure-batch-api
   description: Synchronizes access keys for the auto storage account configured for
@@ -91,7 +91,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnamesyncautostoragekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamesyncautostoragekeys-post-openapi.md
 - name: Azure Batch API Batch Account Regenerate Key
   x-api-slug: azure-batch-api
   description: Regenerates the specified account key for the Batch account.
@@ -101,7 +101,7 @@ apis:
   tags: Batch Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameregeneratekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameregeneratekeys-post-openapi.md
 - name: Azure Batch API Gets the account keys for the specified Batch account.
   x-api-slug: azure-batch-api
   description: This operation applies only to Batch accounts created with a poolAllocationMode
@@ -114,7 +114,7 @@ apis:
   tags: Account Key
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnamelistkeys-post-openapi.md
 - name: Azure Batch API Application Package Activate
   x-api-slug: azure-batch-api
   description: Activates the specified application package.
@@ -124,7 +124,7 @@ apis:
   tags: Application Package
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationidversionsversionactivate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationidversionsversionactivate-post-openapi.md
 - name: Azure Batch API Application Create
   x-api-slug: azure-batch-api
   description: Adds an application to the specified Batch account.
@@ -134,7 +134,7 @@ apis:
   tags: Application
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationid-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationid-put-openapi.md
 - name: Azure Batch API Application Delete
   x-api-slug: azure-batch-api
   description: Deletes an application.
@@ -144,7 +144,7 @@ apis:
   tags: Application
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationid-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationid-delete-openapi.md
 - name: Azure Batch API Application Get
   x-api-slug: azure-batch-api
   description: Gets information about the specified application.
@@ -154,7 +154,7 @@ apis:
   tags: Application
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationid-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationid-get-openapi.md
 - name: Azure Batch API Application Update
   x-api-slug: azure-batch-api
   description: Updates settings for the specified application.
@@ -164,7 +164,7 @@ apis:
   tags: Application
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationid-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationid-patch-openapi.md
 - name: Azure Batch API Application Package Create
   x-api-slug: azure-batch-api
   description: Creates an application package record.
@@ -174,7 +174,7 @@ apis:
   tags: Application Package
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationidversionsversion-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationidversionsversion-put-openapi.md
 - name: Azure Batch API Application Package Delete
   x-api-slug: azure-batch-api
   description: Deletes an application package record and its associated binary file.
@@ -184,7 +184,7 @@ apis:
   tags: Application Package
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationidversionsversion-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationidversionsversion-delete-openapi.md
 - name: Azure Batch API Application Package Get
   x-api-slug: azure-batch-api
   description: Gets information about the specified application package.
@@ -194,7 +194,7 @@ apis:
   tags: Application Package
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplicationsapplicationidversionsversion-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplicationsapplicationidversionsversion-get-openapi.md
 - name: Azure Batch API Application List
   x-api-slug: azure-batch-api
   description: Lists all of the applications in the specified account.
@@ -204,7 +204,7 @@ apis:
   tags: Application
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftbatchbatchaccountsaccountnameapplications-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplications-get-openapi.md
 - name: Azure Batch API Location Get Quotas
   x-api-slug: azure-batch-api
   description: Gets the Batch service quotas for the specified subscription at the
@@ -215,9 +215,9 @@ apis:
   tags: Location Quotas
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidprovidersmicrosoftbatchlocationslocationnamequotas-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidprovidersmicrosoft-batchlocationslocationnamequotas-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidprovidersmicrosoftbatchlocationslocationnamequotas-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/subscriptionssubscriptionidprovidersmicrosoft-batchlocationslocationnamequotas-get-openapi.md
 - name: Azure Batch API
   x-api-slug: azure-batch-api
   description: Batch processing began with mainframe computers and punch cards. Today,

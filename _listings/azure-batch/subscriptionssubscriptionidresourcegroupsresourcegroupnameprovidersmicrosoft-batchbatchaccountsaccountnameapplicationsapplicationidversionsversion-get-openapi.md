@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Batch
-x-complete: 1
+x-complete: 0
 info:
-  title: BatchManagement
+  title: Azure Batch API Application Package Get
   version: 1.0.0
+  description: Gets information about the specified application package.
 host: management.azure.com
 basePath: /
 schemes:
@@ -414,45 +415,17 @@ paths:
           description: OK
       tags:
       - Application Package
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/applications
-  : get:
-      summary: Application List
-      description: Lists all of the applications in the specified account.
-      operationId: Application_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-batchbatchaccountsaccountnameapplications-get
-      parameters:
-      - in: path
-        name: accountName
-        description: The name of the Batch account
-      - in: query
-        name: maxresults
-        description: The maximum number of items to return in the response
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group that contains the Batch account
-      responses:
-        200:
-          description: OK
-      tags:
-      - Application
-  /subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/quotas:
-    get:
-      summary: Location Get Quotas
-      description: Gets the Batch service quotas for the specified subscription at
-        the given location.
-      operationId: Location_GetQuotas
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-batchlocationslocationnamequotas-get
-      parameters:
-      - in: path
-        name: locationName
-        description: The desired region for the quotas
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Location Quotas
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
