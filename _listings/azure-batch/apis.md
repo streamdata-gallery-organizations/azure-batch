@@ -11,10 +11,10 @@ description: Batch processing began with mainframe computers and punch cards. To
   investment.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure Batch
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/apis.md
 specificationVersion: "0.14"
 apis:
