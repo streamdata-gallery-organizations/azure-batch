@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Batch",
+	"description": "This is a repository of azure batch APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-batch.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-batch.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Batch",
+			"x-api-slug": "azure-batch",
+			"description": "Batch processing began with mainframe computers and punch cards. Today, it still plays a central role in business, engineering, science, and other areas that require running lots of automated tasks&mdash;processing bills and payroll, calculating portfolio risk, designing new products, rendering animated films, testing software, searching for energy, predicting the weather, and finding new cures for disease. Previously, few people had access to the computing power for these scenarios. With Azure Batch, that power is available to you when you need it, without any capital investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/batch/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Batch",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Batch",
+	"include": [
+		{
+			"name": "Azure Batch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-batch/master/_listings/azure-batch/apis.yaml"
+		}
+	]
+}
